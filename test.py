@@ -51,5 +51,7 @@ def test_transactions(earned,spend,expected,empty_wallet):
     empty_wallet.spend_cash(spend)
     assert empty_wallet.get_balance() == expected
 
+print("")
+
 
 
